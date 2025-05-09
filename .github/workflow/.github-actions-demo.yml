@@ -1,0 +1,6 @@
+run-name: Code checks
+on:
+  pull_request:
+    types: [opened, edited]
+    branches:
+      - main
